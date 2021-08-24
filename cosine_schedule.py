@@ -1,6 +1,9 @@
 # -*- coding: utf-8 -*-
 
 import keras
+import math
+from keras import backend as K
+
 class CosineAnnealingScheduler(keras.callbacks.Callback):
         #Cosine annealing scheduler.
    
